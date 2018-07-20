@@ -9,7 +9,6 @@ public class ContinueOutTest {
                 if (i + j == 8) {
                     continue loop;
                 }
-
                 System.out.println(j);
             }
         }
