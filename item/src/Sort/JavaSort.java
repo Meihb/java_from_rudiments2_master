@@ -1,5 +1,7 @@
 package Sort;
 
+import java.util.Arrays;
+
 public class JavaSort {
     public static void main(String[] args) {
         JavaSort myJavaSort = new JavaSort();
@@ -9,6 +11,8 @@ public class JavaSort {
         myJavaSort.SimpleSelectSort(numbers1);
         int[] numbers2 = {23, 64, 24, 1, 3, 15};
         myJavaSort.StraightInsertSort(numbers2);
+        myJavaSort.InsertSort();
+        myJavaSort.ShellSort();
 
     }
 
@@ -100,13 +104,71 @@ public class JavaSort {
                     }
                 }
             }
-            System.out.print(dest_subscript+":");
+            System.out.print(dest_subscript + ":");
             if (dest_subscript < i) {
                 int temp = numbers[i];
-                System.arraycopy(numbers, dest_subscript, numbers, dest_subscript+1, i - dest_subscript+1);
+                System.arraycopy(numbers, dest_subscript, numbers, dest_subscript + 1, i - dest_subscript);
                 numbers[dest_subscript] = temp;
             }
             showArray(numbers);
+        }
+    }
+
+    /**
+     * 直接插入排序,原始实现方式,不寻找插入点
+     */
+    public void InsertSort() {
+        System.out.println("直接插入排序 原始实现方式");
+        int[] numbers = {23, 64, 24, 1, 3, 15, 91, 73, 34};
+        System.out.println(Arrays.toString(numbers));
+        int temp;
+        for (int i = 1; i < numbers.length; i++) {
+            temp = numbers[i];
+            System.out.println("i=" + i + " 哨兵=" + temp);
+            for (int j = i - 1; j >= 0; j--) {
+                System.out.println("j=" + j + " number is " + numbers[j]);
+                if (temp < numbers[j]) {//当前数字比哨兵数大,当前数右移一位
+                    numbers[j + 1] = numbers[j];
+                    numbers[j] =temp;
+                    System.out.println(Arrays.toString(numbers));
+                } else {//从此数往前全部是小于哨兵的数,意即 该哨兵应当放在此位置后一位
+                    numbers[j + 1] = temp;
+                    System.out.println(Arrays.toString(numbers));
+                    break;
+                }
+            }
+        }
+        System.out.println(Arrays.toString(numbers));
+
+    }
+
+    /**
+     * 希尔排序
+     *
+     */
+    public void ShellSort() {
+        System.out.println("希尔排序");
+        int[] data = {23, 64, 24, 1, 3, 15, 91, 73, 34};
+        int j = 0;
+        int temp = 0;
+        for (int increment = data.length / 2; increment > 0; increment /= 2) {
+            System.out.println("increment:" + increment);
+            for (int i = increment; i < data.length; i++) {
+                System.out.println("i:" + i);
+                temp = data[i];
+                for (j = i - increment; j >= 0; j -= increment) {
+                    System.out.println("j:" + j);
+                    System.out.println("temp:" + temp);
+                    System.out.println("data[" + j + "]:" + data[j]);
+                    if (temp < data[j]) {
+                        data[j + increment] = data[j];
+                    } else {
+                        break;
+                    }
+                }
+                data[j + increment] = temp;
+            }
+            System.out.println(Arrays.toString(data));
         }
     }
 
