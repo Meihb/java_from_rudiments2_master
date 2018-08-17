@@ -71,6 +71,15 @@ public class JavaSort {
     }
 
     /**
+     * 堆排序 本质是选择排序
+     */
+    public void HeapSort() {
+        int[] numbers = {26, 53, 67, 48, 57, 13, 48, 32, 60, 50};
+        System.out.println("堆排序");
+
+    }
+
+    /**
      * 直接插入排序
      * 默认当前带插入的数字串是有序的,将当前插入值按序插入对应的地址,若存在于当前值相同,插入此值之后
      *
@@ -119,7 +128,7 @@ public class JavaSort {
      */
     public void InsertSort() {
         System.out.println("直接插入排序 原始实现方式");
-        int[] numbers = {23, 64, 24, 1, 3, 15, 91, 73, 34};
+        int[] numbers = {23, 14, 66, 1, 3, 15, 91, 73, 34};
         System.out.println(Arrays.toString(numbers));
         int temp;
         for (int i = 1; i < numbers.length; i++) {
@@ -129,47 +138,46 @@ public class JavaSort {
                 System.out.println("j=" + j + " number is " + numbers[j]);
                 if (temp < numbers[j]) {//当前数字比哨兵数大,当前数右移一位
                     numbers[j + 1] = numbers[j];
-                    numbers[j] =temp;
+                    numbers[j] = temp;
                     System.out.println(Arrays.toString(numbers));
-                } else {//从此数往前全部是小于哨兵的数,意即 该哨兵应当放在此位置后一位
-                    numbers[j + 1] = temp;
+                } else {//从此数往前全部是小于哨兵的数
                     System.out.println(Arrays.toString(numbers));
                     break;
                 }
             }
+
         }
-        System.out.println(Arrays.toString(numbers));
 
     }
 
     /**
      * 希尔排序
-     *
+     * 虽然原理是分组处理,但是代码无需多一层分组控制(徒增for循环)
+     * 从增量开始循环,比照简单插入中从1开始
      */
     public void ShellSort() {
         System.out.println("希尔排序");
-        int[] data = {23, 64, 24, 1, 3, 15, 91, 73, 34};
-        int j = 0;
+        int[] numbers = {26, 53, 67, 48, 57, 13, 48, 32, 60, 50};
+        showArr(numbers);
         int temp = 0;
-        for (int increment = data.length / 2; increment > 0; increment /= 2) {
+        int numbersLength = numbers.length;
+        for (int increment = numbersLength / 2; increment >= 1; increment /= 2) {//增量初始值为长度一半,每次取半，增量大小即为组数大小
             System.out.println("increment:" + increment);
-            for (int i = increment; i < data.length; i++) {
-                System.out.println("i:" + i);
-                temp = data[i];
-                for (j = i - increment; j >= 0; j -= increment) {
-                    System.out.println("j:" + j);
-                    System.out.println("temp:" + temp);
-                    System.out.println("data[" + j + "]:" + data[j]);
-                    if (temp < data[j]) {
-                        data[j + increment] = data[j];
-                    } else {
-                        break;
-                    }
+            for (int i = increment; i < numbersLength; i++) {
+                showArr(numbers);
+                temp = numbers[i];//哨兵
+                int j = i - increment;
+                while (j >= 0 && numbers[j] > temp) {//遇到大于哨兵的数据往后移
+                    showArr(numbers);
+                    numbers[j + increment] = numbers[j];
+                    j -= increment;
                 }
-                data[j + increment] = temp;
+
+                numbers[j + increment] = temp;
             }
-            System.out.println(Arrays.toString(data));
+            showArr(numbers);
         }
+        showArr(numbers);
     }
 
     /**
@@ -180,5 +188,9 @@ public class JavaSort {
             System.out.print(" " + num);
         }
         System.out.print("\t\n");
+    }
+
+    public void showArr(int[] array) {
+        System.out.println(Arrays.toString(array));
     }
 }
