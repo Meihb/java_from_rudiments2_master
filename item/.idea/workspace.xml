@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/Sort/QuickSort.java" line="1" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="69818a24-6a7f-44a0-8060-e9de0eb2209e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
@@ -25,22 +28,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="12" />
+          <entry key="java" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="12" />
+          <entry key="JAVA" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="6304" />
+          <entry key="java" value="6525" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6304" />
+          <entry key="JAVA" value="6525" />
         </counts>
       </usages-collector>
     </session>
@@ -83,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sort/JavaSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="78" column="12" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
+            <state relative-caret-position="699">
+              <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
               <folding>
                 <element signature="docComment;method#BubbleSort#0;class#JavaSort#0" />
                 <element signature="method#BubbleSort#0;class#JavaSort#0" />
@@ -97,9 +100,25 @@
                 <element signature="method#ShellSort#0;class#JavaSort#0" />
                 <element signature="docComment;method#showArray#0;class#JavaSort#0" />
                 <element signature="method#showArray#0;class#JavaSort#0" />
-                <element signature="e#5574#5575#0" expanded="true" />
-                <element signature="e#5632#5633#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Sort/QuickSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/StringTst/ParamTst.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -139,10 +158,11 @@
         <option value="$PROJECT_DIR$/src/StringTst/Jerque.java" />
         <option value="$PROJECT_DIR$/src/ArrTst/CreateArr.java" />
         <option value="$PROJECT_DIR$/src/ArrTst/ArraysTst.java" />
-        <option value="$PROJECT_DIR$/src/Sort/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/SelectSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/ShellSort.java" />
+        <option value="$PROJECT_DIR$/src/Sort/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/StringTst/ParamTst.java" />
         <option value="$PROJECT_DIR$/src/Sort/JavaSort.java" />
       </list>
     </option>
@@ -153,7 +173,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -186,6 +206,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Sort" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="item" type="b2602c69:ProjectViewProjectNode" />
+              <item name="item" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="StringTst" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -197,7 +223,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534500311566" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535016829907" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -215,23 +241,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JavaSort">
-    <configuration name="ArraysTst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrTst.ArraysTst" />
-      <module name="item" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ArrTst.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sort.BubbleSort" />
+  <component name="RunManager" selected="Application.ParamTst">
+    <configuration name="JavaSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sort.JavaSort" />
       <module name="item" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -244,8 +256,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sort.JavaSort" />
+    <configuration name="ParamTst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringTst.ParamTst" />
+      <module name="item" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StringTst.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sort.QuickSort" />
       <module name="item" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -307,19 +333,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ArraysTst" />
-      <item itemvalue="Application.BubbleSort" />
       <item itemvalue="Application.SelectSort" />
       <item itemvalue="Application.JavaSort" />
       <item itemvalue="Application.ShellSort" />
+      <item itemvalue="Application.QuickSort" />
+      <item itemvalue="Application.ParamTst" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParamTst" />
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.JavaSort" />
         <item itemvalue="Application.ShellSort" />
         <item itemvalue="Application.SelectSort" />
-        <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.ArraysTst" />
       </list>
     </recent_temporary>
   </component>
@@ -339,16 +365,15 @@
       <workItem from="1533093880962" duration="17070000" />
       <workItem from="1533868911603" duration="639000" />
       <workItem from="1533870769013" duration="11283000" />
-      <workItem from="1534141721105" duration="58061000" />
+      <workItem from="1534141721105" duration="68667000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107790000" />
+    <option name="totallyTimeSpent" value="118396000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.102345414" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -450,13 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sort/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Number/ContinueOutTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -485,10 +503,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/StringTst/ParamTst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Sort/JavaSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="78" column="12" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
+        <state relative-caret-position="699">
+          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
           <folding>
             <element signature="docComment;method#BubbleSort#0;class#JavaSort#0" />
             <element signature="method#BubbleSort#0;class#JavaSort#0" />
@@ -498,9 +523,14 @@
             <element signature="method#ShellSort#0;class#JavaSort#0" />
             <element signature="docComment;method#showArray#0;class#JavaSort#0" />
             <element signature="method#showArray#0;class#JavaSort#0" />
-            <element signature="e#5574#5575#0" expanded="true" />
-            <element signature="e#5632#5633#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
         </state>
       </provider>
     </entry>
