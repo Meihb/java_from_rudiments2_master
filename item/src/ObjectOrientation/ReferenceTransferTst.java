@@ -3,6 +3,18 @@ package ObjectOrientation;
 class DataWrap {
     int a;
     int b;
+    int c;
+
+    public DataWrap(int a, int b) {
+        this.a = a;
+        this.b = b;
+    }
+
+    public DataWrap() {
+        this(1, 5);
+         this.c = 10;
+    }
+
 }
 
 /**
@@ -10,9 +22,9 @@ class DataWrap {
  */
 public class ReferenceTransferTst {
     /**
-     * @param dataWrap
+     * @param dataWrap DataWrap
      */
-    public void wrap(DataWrap dataWrap) {
+    private void wrap(DataWrap dataWrap) {
         int temp = dataWrap.a;
         dataWrap.a = dataWrap.b;
         dataWrap.b = temp;
@@ -20,6 +32,21 @@ public class ReferenceTransferTst {
 //        dataWrap = null;
 //        System.out.println("in wrap:a is " + dataWrap.a + ",b is " + dataWrap.b);
 
+    }
+
+
+    private void testFlexiableParams(int a, String[] book1s, String... book2s) {
+        System.out.println(a);
+        for (String book1 : book1s
+        ) {
+            System.out.println("book1: " + book1);
+
+        }
+        for (String book2 : book2s
+        ) {
+            System.out.println("book2: " + book2);
+
+        }
     }
 
     public static void main(String[] args) {
@@ -31,5 +58,12 @@ public class ReferenceTransferTst {
         ReferenceTransferTst referenceTransferTst = new ReferenceTransferTst();
         referenceTransferTst.wrap(dataWrap);
         System.out.println("a is " + dataWrap.a + ",b is " + dataWrap.b);
+
+        String[] st2 = new String[]{"xinhua", "东北"};
+        int a = 2;
+        //可变传参
+        referenceTransferTst.testFlexiableParams(a, st2, "新1", "新2");
+        //变长形参可以直接通过数组传递,此处与python中传参*list相似
+        referenceTransferTst.testFlexiableParams(a, st2, new String[]{"数组1", "数组2"});
     }
 }
