@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69818a24-6a7f-44a0-8060-e9de0eb2209e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ObjectOrientation/Initilizer/InitializerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/item/ObjectOrientation/ReferenceTransferTst.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/item/ObjectOrientation/ReferenceTransferTst.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectOrientation/ReferenceTransferTst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObjectOrientation/ReferenceTransferTst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectOrientation/Initializer.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,33 +40,35 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="27" />
+          <entry key="java" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="27" />
+          <entry key="JAVA" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="9912" />
+          <entry key="dummy" value="4" />
+          <entry key="java" value="10954" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9912" />
+          <entry key="JAVA" value="10954" />
+          <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ObjectOrientation/ReferenceTransferTst.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+            <state relative-caret-position="-602">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -80,11 +82,30 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ObjectOrientation/Initializer.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ObjectOrientation/Initilizer/InitializerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            <state relative-caret-position="534">
+              <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+              <folding>
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ObjectOrientation/Initilizer/StaticTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+              <folding>
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,6 +149,9 @@
         <option value="$PROJECT_DIR$/src/ObjectOrientation/Polymorphism/SubClass.java" />
         <option value="$PROJECT_DIR$/src/ObjectOrientation/SubClass/SubClass.java" />
         <option value="$PROJECT_DIR$/src/ObjectOrientation/Initializer.java" />
+        <option value="$PROJECT_DIR$/src/ObjectOrientation/InitializerTest.java" />
+        <option value="$PROJECT_DIR$/src/ObjectOrientation/Initilizer/InitializerTest.java" />
+        <option value="$PROJECT_DIR$/src/ObjectOrientation/Initilizer/StaticTest.java" />
       </list>
     </option>
   </component>
@@ -176,7 +200,7 @@
               <item name="item" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ObjectOrientation" type="462c0819:PsiDirectoryNode" />
-              <item name="SubClass" type="462c0819:PsiDirectoryNode" />
+              <item name="ReferenceTransferTst.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -188,7 +212,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539252209028" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539337634091" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -206,25 +230,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SubClass">
-    <configuration name="DecimalFormatSimpleDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumberProcedure.DecimalFormatSimpleDemo" />
+  <component name="RunManager" selected="Application.StaticTest">
+    <configuration name="InitializerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObjectOrientation.Initilizer.InitializerTest" />
       <module name="item" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="NumberProcedure.*" />
+          <option name="PATTERN" value="ObjectOrientation.Initilizer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="item" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -235,7 +251,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ObjectOrientation.*" />
+          <option name="PATTERN" value="ObjectOrientation.Initilizer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,6 +266,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="NumberProcedure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObjectOrientation.Initilizer.StaticTest" />
+      <module name="item" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ObjectOrientation.Initilizer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -292,19 +322,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DecimalFormatSimpleDemo" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.ReturnTst" />
       <item itemvalue="Application.ReferenceTransferTst" />
       <item itemvalue="Application.SubClass" />
+      <item itemvalue="Application.InitializerTest" />
+      <item itemvalue="Application.StaticTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StaticTest" />
+        <item itemvalue="Application.InitializerTest" />
         <item itemvalue="Application.SubClass" />
         <item itemvalue="Application.ReferenceTransferTst" />
         <item itemvalue="Application.ReturnTst" />
-        <item itemvalue="Application.DecimalFormatSimpleDemo" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -332,12 +362,12 @@
       <workItem from="1536645793176" duration="28700000" />
       <workItem from="1537844442471" duration="35760000" />
       <workItem from="1538961069202" duration="24126000" />
-      <workItem from="1539141314852" duration="22357000" />
+      <workItem from="1539141314852" duration="37827000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="277708000" />
+    <option name="totallyTimeSpent" value="293178000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -516,13 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObjectOrientation/ReferenceTransferTst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ObjectOrientation/SubClass/SubClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -530,10 +553,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObjectOrientation/Initializer.java">
+    <entry file="file://$PROJECT_DIR$/src/ObjectOrientation/Initilizer/InitializerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        <state relative-caret-position="534">
+          <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+          <folding>
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObjectOrientation/Initilizer/StaticTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+          <folding>
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObjectOrientation/ReferenceTransferTst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-602">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
