@@ -1,5 +1,8 @@
 package ObjectOrientation.Lambda;
 
+/**
+ * 只有一个抽象方法的接口,可以多个默认方法,类方法,但抽象方法只能一个--函数式接口(@FunctionalInterface)
+ */
 interface Eatable {
     void taste();
 }
@@ -19,7 +22,7 @@ public class LambdaQs {
         e.taste();
     }
 
-    //调用该方法需要Flyable对象
+    //调用该方法需要Fly ble对象
     public void drive(Flyable f) {
         System.out.println("我正在驾驶" + f);
         f.fly("【碧空如洗的晴天】");
@@ -32,6 +35,23 @@ public class LambdaQs {
 
     public static void main(String[] args) {
         LambdaQs lq = new LambdaQs();
-        lq.eat(()->System.out.println("苹果味道不错"));
+        lq.eat(() -> System.out.println("苹果味道不错"));
+
+        //匿名内部类
+        lq.drive(
+                new Flyable() {
+                    @Override
+                    public void fly(String weather) {
+                        System.out.println("匿名天气是" + weather);
+                    }
+                }
+        );
+        lq.drive((String weather) -> {
+            System.out.println("lambda天气是" + weather);
+        });
+
+        lq.test((int a, int b) ->
+                a + b
+        );
     }
 }
