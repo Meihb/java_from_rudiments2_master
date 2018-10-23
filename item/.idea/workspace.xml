@@ -6,9 +6,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69818a24-6a7f-44a0-8060-e9de0eb2209e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/item/ObjectOrientation/Enumerate/Gender$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/item/ObjectOrientation/Enumerate/Gender$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/item/ObjectOrientation/Enumerate/GenderDesc.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectOrientation/Lambda/LambdaQs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObjectOrientation/Lambda/LambdaQs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/item/Gess.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/item/Gess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/item/ObjectOrientation/Enumerate/Gender.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/item/ObjectOrientation/Enumerate/Gender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/item/ObjectOrientation/Enumerate/GenderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/item/ObjectOrientation/Enumerate/GenderTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,25 +48,28 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="53" />
+          <entry key="java" value="71" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="53" />
+          <entry key="JAVA" value="71" />
+          <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="8" />
-          <entry key="java" value="19373" />
+          <entry key="java" value="22417" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="19373" />
-          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="JAVA" value="22417" />
+          <entry key="PLAIN_TEXT" value="11" />
         </counts>
       </usages-collector>
     </session>
@@ -69,52 +77,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ObjectOrientation/Lambda/LambdaQs.java">
+        <entry file="file://$PROJECT_DIR$/src/BasicClass/Scanner/ScannerFileTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-              <folding>
-                <element signature="e#528#529#0" expanded="true" />
-                <element signature="e#587#588#0" expanded="true" />
-                <element signature="e#874#875#0" expanded="true" />
-                <element signature="e#959#960#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ObjectOrientation/Lambda/MethodRefer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="709">
-              <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ObjectOrientation/Enumerate/SeasonEnum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ObjectOrientation/Enumerate/SeasonEnumTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" selection-start-line="4" selection-end-line="5" />
+            <state relative-caret-position="437">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,38 +89,89 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Number.java">
+        <entry file="file://$PROJECT_DIR$/src/BasicClass/System/SystemTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Gess.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="575">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ObjectOrientation/Enumerate/GenderTest.java">
+        <entry file="file://$PROJECT_DIR$/src/BasicClass/Runtime/RuntimeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            <state relative-caret-position="368">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BasicClass/ObjectAndObjects/CloneTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="805">
+              <caret line="35" column="59" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
               <folding>
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#229#230#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#113#114#0" expanded="true" />
+                <element signature="e#109#110#0" expanded="true" />
                 <element signature="e#145#146#0" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
-                <element signature="e#245#246#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BasicClass/ObjectAndObjects/ObjectsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BasicClass/Random/RandomTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BasicClass/BigDecimal/BigDecimalTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BasicClass/DateCalenderTime/CalenderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BasicClass/PathTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" column="57" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BasicClass/Scanner/test.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="2" selection-start-column="2" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -169,20 +186,17 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>class</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Number/First.java" />
-        <option value="$PROJECT_DIR$/src/Number.java" />
-        <option value="$PROJECT_DIR$/src/Gess.java" />
-        <option value="$PROJECT_DIR$/src/Number/BreakOutTest.java" />
-        <option value="$PROJECT_DIR$/src/Number/ContinueOutTest.java" />
-        <option value="$PROJECT_DIR$/src/StringTst/CreateString.java" />
-        <option value="$PROJECT_DIR$/src/StringTst/Jerque.java" />
-        <option value="$PROJECT_DIR$/src/ArrTst/CreateArr.java" />
         <option value="$PROJECT_DIR$/src/Sort/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/SelectSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/ShellSort.java" />
@@ -221,6 +235,19 @@
         <option value="$PROJECT_DIR$/src/ObjectOrientation/Enumerate/SeasonEnumTest.java" />
         <option value="$PROJECT_DIR$/src/ObjectOrientation/Enumerate/Gender.java" />
         <option value="$PROJECT_DIR$/src/ObjectOrientation/Enumerate/GenderTest.java" />
+        <option value="$PROJECT_DIR$/src/Gess.java" />
+        <option value="$PROJECT_DIR$/src/BasicClass/Scanner/ScannerKeyBoard.java" />
+        <option value="$PROJECT_DIR$/src/BasicClass/ScannerKeyBoardTest.java" />
+        <option value="$PROJECT_DIR$/src/BasicClass/Scanner/ScannerKeyBoardTest.java" />
+        <option value="$PROJECT_DIR$/src/BasicClass/Scanner/test.txt" />
+        <option value="$PROJECT_DIR$/src/BasicClass/Scanner/ScannerFileTest.java" />
+        <option value="$PROJECT_DIR$/src/BasicClass/PathTest.java" />
+        <option value="$PROJECT_DIR$/src/BasicClass/System/SystemTest.java" />
+        <option value="$PROJECT_DIR$/src/BasicClass/Runtime/RuntimeTest.java" />
+        <option value="$PROJECT_DIR$/src/BasicClass/ObjectAndObjects/CloneTest.java" />
+        <option value="$PROJECT_DIR$/src/BasicClass/ObjectAndObjects/ObjectsTest.java" />
+        <option value="$PROJECT_DIR$/src/BasicClass/Random/RandomTest.java" />
+        <option value="$PROJECT_DIR$/src/BasicClass/BigDecimal/BigDecimalTest.java" />
       </list>
     </option>
   </component>
@@ -254,63 +281,13 @@
             <path>
               <item name="item" type="b2602c69:ProjectViewProjectNode" />
               <item name="item" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="item" type="b2602c69:ProjectViewProjectNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="item" type="b2602c69:ProjectViewProjectNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="item" type="b2602c69:ProjectViewProjectNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-              <item name="ObjectOrientation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="item" type="b2602c69:ProjectViewProjectNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-              <item name="ObjectOrientation" type="462c0819:PsiDirectoryNode" />
-              <item name="AbstractClass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="item" type="b2602c69:ProjectViewProjectNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="item" type="b2602c69:ProjectViewProjectNode" />
               <item name="item" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ObjectOrientation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="item" type="b2602c69:ProjectViewProjectNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ObjectOrientation" type="462c0819:PsiDirectoryNode" />
-              <item name="Enumerate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="item" type="b2602c69:ProjectViewProjectNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ObjectOrientation" type="462c0819:PsiDirectoryNode" />
-              <item name="Enumerate" type="462c0819:PsiDirectoryNode" />
-              <item name="GenderTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="BasicClass" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -324,11 +301,19 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540202398716" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540291833938" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="BasicClass.Scanner" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\version_control\git\java_from_rudiments2_master\item\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -342,14 +327,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GenderTest">
-    <configuration name="AnonymousTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObjectOrientation.InnerClass.AnonymousTest" />
+  <component name="RunManager" selected="Application.BigDecimalTest">
+    <configuration name="BigDecimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BasicClass.BigDecimal.BigDecimalTest" />
       <module name="item" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ObjectOrientation.InnerClass.*" />
+          <option name="PATTERN" value="BasicClass.BigDecimal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -357,13 +342,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObjectOrientation.Enumerate.GenderTest" />
+    <configuration name="CloneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BasicClass.ObjectAndObjects.CloneTest" />
       <module name="item" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ObjectOrientation.Enumerate.*" />
+          <option name="PATTERN" value="BasicClass.ObjectAndObjects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -371,13 +356,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaQs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObjectOrientation.Lambda.LambdaQs" />
+    <configuration name="ObjectsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BasicClass.ObjectAndObjects.ObjectsTest" />
       <module name="item" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ObjectOrientation.Lambda.*" />
+          <option name="PATTERN" value="BasicClass.ObjectAndObjects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -385,13 +370,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodRefer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObjectOrientation.Lambda.MethodRefer" />
+    <configuration name="RandomTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BasicClass.Random.RandomTest" />
       <module name="item" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ObjectOrientation.Lambda.*" />
+          <option name="PATTERN" value="BasicClass.Random.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -399,13 +384,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeasonEnumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObjectOrientation.Enumerate.SeasonEnumTest" />
+    <configuration name="RuntimeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BasicClass.Runtime.RuntimeTest" />
       <module name="item" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ObjectOrientation.Enumerate.*" />
+          <option name="PATTERN" value="BasicClass.Runtime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -434,19 +419,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AnonymousTest" />
-      <item itemvalue="Application.LambdaQs" />
-      <item itemvalue="Application.MethodRefer" />
-      <item itemvalue="Application.SeasonEnumTest" />
-      <item itemvalue="Application.GenderTest" />
+      <item itemvalue="Application.RuntimeTest" />
+      <item itemvalue="Application.CloneTest" />
+      <item itemvalue="Application.ObjectsTest" />
+      <item itemvalue="Application.RandomTest" />
+      <item itemvalue="Application.BigDecimalTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GenderTest" />
-        <item itemvalue="Application.SeasonEnumTest" />
-        <item itemvalue="Application.MethodRefer" />
-        <item itemvalue="Application.LambdaQs" />
-        <item itemvalue="Application.AnonymousTest" />
+        <item itemvalue="Application.BigDecimalTest" />
+        <item itemvalue="Application.RandomTest" />
+        <item itemvalue="Application.ObjectsTest" />
+        <item itemvalue="Application.CloneTest" />
+        <item itemvalue="Application.RuntimeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -476,12 +461,12 @@
       <workItem from="1538961069202" duration="24126000" />
       <workItem from="1539141314852" duration="39586000" />
       <workItem from="1539567806030" duration="68035000" />
-      <workItem from="1540173267576" duration="14871000" />
+      <workItem from="1540173267576" duration="35081000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="377843000" />
+    <option name="totallyTimeSpent" value="398053000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -496,7 +481,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19829424" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14072494" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -504,7 +489,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
@@ -523,7 +508,7 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="right" id="Run" order="9" sideWeight="0.49729145" visible="true" weight="0.35394457" />
+      <window_info anchor="right" id="Run" order="9" sideWeight="0.49729145" visible="true" weight="0.48454157" />
       <window_info anchor="right" id="Coverage" order="10" sideWeight="0.50270855" side_tool="true" weight="0.40938166" />
     </layout>
   </component>
@@ -534,78 +519,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/StringTst/CreateString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sort/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyInteger.java" />
-    <entry file="file://$PROJECT_DIR$/src/StringTst/Jerque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArrTst/CreateArr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NumberProcedure/tst/mt.java" />
-    <entry file="file://$PROJECT_DIR$/src/ArrTst/ArraysTst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PackageClass/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sort/SelectSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NumberProcedure/DecimalFormatSimpleDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Number/Frist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Number/ContinueOutTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Number/BreakOutTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -825,23 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObjectOrientation/Enumerate/GenderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding>
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ObjectOrientation/Enumerate/SeasonEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -875,8 +771,150 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Gess.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArrTst/CreateArr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArrTst/ArraysTst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BasicClass/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObjectOrientation/Enumerate/GenderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BasicClass/Scanner/ScannerKeyBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BasicClass/Scanner/ScannerKeyBoardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BasicClass/ScannerKeyBoardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BasicClass/Scanner/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BasicClass/Scanner/ScannerFileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/props.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BasicClass/PathTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="57" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BasicClass/System/SystemTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BasicClass/Runtime/RuntimeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/dev/jdk/lib/src.zip!/java.base/java/lang/Cloneable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BasicClass/ObjectAndObjects/CloneTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="35" column="59" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BasicClass/ObjectAndObjects/ObjectsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BasicClass/Random/RandomTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BasicClass/BigDecimal/BigDecimalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BasicClass/DateCalenderTime/CalenderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
         </state>
       </provider>
     </entry>
